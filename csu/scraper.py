@@ -9,9 +9,6 @@ import requests
 import http.client as http_client
 http_client.HTTPConnection.debuglevel = 1
 
-from parse import make_form_data
-
-
 from csu.parse import make_form_data
 
 _URL1 = "https://wss.csu.org/SelfService/CMSSvcLogIn.jsp"
